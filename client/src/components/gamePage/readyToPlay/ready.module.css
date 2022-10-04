@@ -1,0 +1,9 @@
+.btn{
+    margin-top: 1em;
+    background-color: transparent;
+    font-family: 'Arizonia', cursive;
+    font-size: 5rem;
+    color: #023047;
+    border: none;
+    cursor: pointer;
+}

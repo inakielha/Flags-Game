@@ -1,0 +1,38 @@
+
+.flagCorrect {
+    cursor: pointer;
+    width: 100%;
+    /* height: 60%; */
+    text-align: center;
+    padding: 2em 0;
+    background-color: #d8f3dc;
+    box-shadow: -1px -1px 20px 5px #40916c, 1px 1px 30px 10px #40916c;
+    border-radius: 5px;
+}
+.flagIncorrect {
+    cursor: pointer;
+    width: 100%;
+    /* height: 60%; */
+    background-color: #ffccd5;
+    text-align: center;
+    padding: 2em 0;
+    box-shadow: -1px -1px 20px 5px #6a040f, 1px 1px 30px 10px  #6a040f;
+    border-radius: 5px;
+}
+.flag {
+    cursor: pointer;
+    width: 100%;
+    /* height: 60%; */
+    text-align: center;
+    padding: 2em 0;
+    background-color: #faedcd;
+    box-shadow: -5px -5px 20px 5px, 5px 5px 30px 10px  black;
+    border-radius: 5px;
+    
+}
+.text {
+    font-size: 1.5rem;
+    text-transform: capitalize;
+    /* font-family: ; */
+    font-weight: 700;
+}

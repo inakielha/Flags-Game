@@ -1,0 +1,89 @@
+.container {
+    width: 100%;
+    background: url("../../assets/desk2.jpg") center;;
+    /* background-color: #582f0e; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.topPlayerContainer {
+    margin-top: 1em;
+    width: 80%;
+    background: url("../../assets/paper.jpg") no-repeat center/cover;;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    box-shadow: -10px -10px 30px 10px, 10px 10px 30px 10px  black;
+}
+.h2 {
+    font-size: 2.5rem;
+    font-family: 'Playfair Display', serif;
+    letter-spacing: 0.1em;
+    padding: 1em;
+    width: 50%;
+    border-bottom: 5px solid black;
+    /* background-color: red; */
+}
+.span {
+    color: orange;
+    width: 100%;
+    /* background-color: aliceblue; */
+    padding: 0 0.1em;
+    font-size: 2.5rem;
+}
+.ul {
+    list-style: none;
+    padding: 0;
+    width: 100%;
+}
+.li {
+    /* background-color: sandybrown; */
+    width: 100%;
+}
+.playerContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1.5em;
+    font-size: 3rem;
+    font-weight: 900;
+    color: #001d3d;
+    font-family: 'Arizonia', cursive;
+
+    width: 100%;
+    /* text-shadow: -0.1px 0 black, 0 0.1px black, 0.1px 0 black, 0 -0.1px black; */
+}
+.name {
+    font-weight: bold;
+    text-transform: capitalize;
+}
+.numberPosition {
+    font-family: "Roboto";
+}
+.primeros {
+    font-weight: 500;
+    color: #e36414;
+    color: #f8961e;
+    font-family: 'Arizonia', cursive;
+    text-transform: capitalize;
+}
+.segundos {
+    font-weight: 500;
+    color: #adb5bd;
+    font-family: 'Arizonia', cursive;
+    text-transform: capitalize;
+}
+.terceros {
+    font-weight: 500;
+    color: #7f5539;
+    font-family: 'Arizonia', cursive;
+    text-transform: capitalize;
+}
+.mediocres {
+    font-weight: 500;
+    color: black;
+    font-family: 'Arizonia', cursive;
+    text-transform: capitalize;
+}
